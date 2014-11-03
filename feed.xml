@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-11-02T16:44:00-05:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>The Fault in Our Hashtags</title>
+    <link rel="alternate" href="http://blog.url.com/blog/the-fault-in-our-hashtags/"/>
+    <id>http://blog.url.com/blog/the-fault-in-our-hashtags/</id>
+    <published>2014-11-02T16:44:00-05:00</published>
+    <updated>2014-11-02T17:35:02-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I’m &lt;a href="http://www.twitter.com/Lustomatical/status/448265064551038977"&gt;on record&lt;/a&gt; claiming that people would stop freaking out about the Common Core if they’d just sit down for a few hours to read the actual text  of the standards. So are some &lt;a href="http://twitter.com/profkeithdevlin/status/492060821254463490"&gt;other, smarter people&lt;/a&gt;. For those who have spent a little time nose-deep in the documentation, much of the negative reaction swirling in the &lt;a href="http://twitter.com/search?q=%23StopCommonCore&amp;amp;src=tyah"&gt;#StopCommonCore&lt;/a&gt; wind is difficult even to parse.&lt;/p&gt;
+
+&lt;p&gt;It’s hard to muster empathy for a position that opposes, e.g., having students &lt;a href="http://www.corestandards.org/Math/Practice/MP7/"&gt;“look for and make use of structure”&lt;/a&gt; in their work. I’m personally unable to reconstruct the neural state that produces disgust in response to an eighth-grader learning that &lt;a href="http://www.corestandards.org/Math/Content/8/G/"&gt;parallel lines are taken to parallel lines&lt;/a&gt; under rigid transformation. At nose-altitude, the standards seem as though they ought to be either (in the case of the &lt;a href="http://www.corestandards.org/Math/Practice/"&gt;SMP&lt;/a&gt;) uncontroversially representative of sound mathematical thinking, or (in the case of the &lt;a href="http://www.corestandards.org/Math/"&gt;content standards&lt;/a&gt;) so mundane as to be almost invisible to anyone not deeply invested in the nuances of domain-specific pedagogy.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;But we’re&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; making a category mistake, and it’s eroding the opportunity for productive conversation&lt;/p&gt;
+
+&lt;h6 id="lossy-compression"&gt;Lossy Compression&lt;/h6&gt;
+
+&lt;p&gt;The CCSS-M comprise a body of ideas that’s approximately apolitical,&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; but of course the system that produced them is entirely not. And it’s precisely that system for which the most vitriolic dissent has been reserved. The problem is as simple as it is frustrating: the CCSS-M have become a symbol of the apparatus that begat them, which changes the rules of discourse in important ways. Because once a thing begins to signify, once its status as thing-as-such is subsumed under a figurative mantle, its prior, literal nature loses its salience—at least in the prevailing context.&lt;/p&gt;
+
+&lt;p&gt;That shift isn’t itself problematic. Symbols serve important functions. They compress complicated rhetorical structures, instantiate relevant archetypes, exemplify. They memorialize the passage from thinghood into Thinghood. But because figurative compression is lossy, symbols also up the demands on our language and its interpretation.&lt;/p&gt;
+
+&lt;p&gt;And so here, I think, is the basis for much of the current exasperation: each of the pro- and anti-CCSS camps is effectively speaking a different language. And, to make an already difficult situation worse, the superficial similarity between the two hides their distinction. After all, the language of things and the language of Things differ only in degree of literality—which is to say only in the minds of speaker and listener.&lt;/p&gt;
+
+&lt;p&gt;When we started having conversations about the CCSS-M, we were free to argue about what kind of thing they were or ought to be. The standards are, after all, a human invention, and different humans in that situation—or the same humans in slightly different circumstances or moods or states of caffeination—would have invented something else. We’re precisely those people who &lt;em&gt;are&lt;/em&gt; deeply invested in the nuances of domain-specific pedagogy, and so the standards are a thing we’re well equipped and even professionally obliged to debate.&lt;/p&gt;
+
+&lt;p&gt;But then one day we looked up from our desks to find that the standards had become a Thing.  Which isn’t necessarily so awful. It seems fair that Things should be subject to debate in the same way things are. Except that now it’s much harder to figure out who the hell is talking about what, and basically everybody is losing his or her mind.&lt;/p&gt;
+
+&lt;h6 id="exempli-gratia"&gt;&lt;em&gt;Exempli Gratia&lt;/em&gt;&lt;/h6&gt;
+
+&lt;p&gt;Here’s one pseudorandom example to help illustrate the multivalence of our joint misery.  You&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt; have posted a picture of a multi-digit multiplication problem that someone has solved using partial products, and you’ve included the caption: &lt;em&gt;What the fuck?!? This is why we need to #StopCommonCore!!!!!!1&lt;/em&gt;  And now I, as someone who takes issue with your point(s) and wants to engage, have to go through the following exercise, which is too complex and nonlinear to diagram faithfully:&lt;/p&gt;
+
+&lt;p&gt;On what level does your &lt;em&gt;WTF&lt;/em&gt; exist? Is it rooted in mathematical confusion? If so, do you not follow the application of the Distributive Property? If that’s the case, then I must rather gently suggest that you—possibly despite several technical graduate degrees—misunderstand some foundational mathematics, and this is precisely the kind of blind spot the CCSS-M, with their focus on conceptual depth, aim to help your child avoid. Or are you confused as to why someone would bother with anything &lt;em&gt;other&lt;/em&gt; than the standard algorithm, which you’ve found to be foolproof and efficient? Then I have to mount some kind of assault on this place-value-obscuring black box, while simultaneously proposing that efficiency is (a) often situationally dependent and (b) certainly not the principal goal of math education.&lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt; I must also calmly assuage your fears by telling you that, in spite of what you see on Facebook, the standard algorithm is in fact &lt;a href="http://www.corestandards.org/Math/Content/5/NBT/B/5/"&gt;&lt;em&gt;the only one explicitly required&lt;/em&gt;&lt;/a&gt; by the CCSS-M, so your kid will get that too. And in either case I’m obligated to point out that your own facility with the standard algorithm in no way indicates how learners presented this novel problem would actually begin to cope with it, so maybe let’s explore some cognitively-informed alternatives.&lt;sup id="fnref:6"&gt;&lt;a href="#fn:6" class="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay, so that’s bad enough. It’s all very tedious and based on error-prone inference, but at least it’s a thing-level response to a thing-level complaint. But what if your WTF instead exists on the Thing plane? Then your language is actually a coded argument about the CCSS-M-as-symbol, which in your mind likely represents some subset of the following: corporate cronyism, federal overreach, imposed parental obsolescence, religious intolerance, and, depending on your particular bent, either intellectual elitism or vacuity. Now we’re both in a terrible position. For one, nothing I say about any of those will affect you. At all. Worse, if I misinterpret the intent of your symbolic language and respond instead to its surface content—which is, after all, my wheelhouse—any thing-level response I might give is going to sound patronizing or deflective or willfully obtuse. And bingo: we officially have ourselves an unproductive exchange. This is the cringe-inducing case in which we find ourselves too often, especially in the bowels of Twitter or the Comments Section, where nuance gets burned for server fuel.&lt;/p&gt;
+
+&lt;h6 id="salvage"&gt;Salvage&lt;/h6&gt;
+
+&lt;p&gt;If you consider the CCSS-M as a literary document, you can divide the pro- and anti- camps roughly along critical lines. The supporters tend to take the view that extra-textual information is at best irrelevant,&lt;sup id="fnref:7"&gt;&lt;a href="#fn:7" class="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt; and they’re annoyed that the anti- folks are not only falling victim to, but are actively systematizing into rhetorical pillars, both the Intentional and Affective fallacies. The detractors tend to take the view that the authorial/emotive/social/political/historical/etc. context is in fact inseparable from the document, and they’re miffed that the pro- folks are essentially dismissing information that deeply informs, if not flatly supersedes, the text itself.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Links --&gt;
+
+&lt;!-- Footnotes --&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:1"&gt;
+      &lt;p&gt;Not to mention eerily similar to the many sets of state standards that went broadly uncommented-upon in the very recent past. &lt;a href="#fnref:1" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:2"&gt;
+      &lt;p&gt;I realize there are a lot of assumptions wrapped up in that little pronoun, by which I roughly mean, “professionals who think the CCSS-M represent a net gain over the status quo for the universe of math education and who are frustrated by what they perceive to be broad mischaracterization and generally inaccurate criticism of same.” &lt;a href="#fnref:2" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:3"&gt;
+      &lt;p&gt;In no way am I suggesting that the production of any widely adopted curricular standards comes without political baggage (clearly), but nowhere in the text of the CCSS-M proper will you find a statement with any more political heft than you’d come across in a sufficiently thorough set of toaster instructions. &lt;a href="#fnref:3" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:4"&gt;
+      &lt;p&gt;A hypothetical you. Or maybe an actual you. You, &lt;em&gt;ad argumentum&lt;/em&gt;. &lt;a href="#fnref:4" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:5"&gt;
+      &lt;p&gt;…otherwise math teachers could get through most of elementary school by pointing out the operator buttons on a $4 calculator. &lt;a href="#fnref:5" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:6"&gt;
+      &lt;p&gt;Optional Argumentative Point: Also, by the way, kids were learning about partial products long before the Common Core; they will learn about it during the Common Core’s tenure; and they’ll continue to learn about it after the Common Core is but a faint twinkle in the rearview.  Because it’s awesome. &lt;a href="#fnref:6" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:7"&gt;
+      &lt;p&gt;Either because it’s unavailable in principle (such as the author’s intent), or because it’s so fundamentally subjective as to be globally incoherent (such as the emotional response) &lt;a href="#fnref:7" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Autogenerated</title>
+    <link rel="alternate" href="http://blog.url.com/blog/autogenerated/"/>
+    <id>http://blog.url.com/blog/autogenerated/</id>
+    <published>2014-10-31T23:15:00-04:00</published>
+    <updated>2014-11-02T14:07:09-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles! Lorem ipsum amet dolor, and so on, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This shouldn’t show up on the cards for the homepage.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Yet Anoter Sample</title>
+    <link rel="alternate" href="http://blog.url.com/blog/yet-another-sample/"/>
+    <id>http://blog.url.com/blog/yet-another-sample/</id>
+    <published>2012-01-02T19:00:00-05:00</published>
+    <updated>2014-11-02T14:07:09-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles! Lorem ipsum amet dolor, and so on, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This shouldn’t show up on the cards for the homepage.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A Second Example</title>
+    <link rel="alternate" href="http://blog.url.com/blog/sample/"/>
+    <id>http://blog.url.com/blog/sample/</id>
+    <published>2012-01-01T19:00:00-05:00</published>
+    <updated>2014-11-02T14:07:09-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles! Lorem ipsum amet dolor, and so on, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This shouldn’t show up on the cards for the homepage.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="http://blog.url.com/blog/example-article/"/>
+    <id>http://blog.url.com/blog/example-article/</id>
+    <published>2011-12-31T19:00:00-05:00</published>
+    <updated>2014-11-02T14:07:09-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles! Lorem ipsum amet dolor, and so on, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This shouldn’t show up on the cards for the homepage.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
