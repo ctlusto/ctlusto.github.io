@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>math pun - Desmos for the Absolute Beginner</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <header class='navigation'>
+<div class='navigation-wrapper'>
+<a class='logo' href='/'>
+<img src='/images/pi.svg'>
+</a>
+<a class='navigation-menu-button' href='' id='js-mobile-menu'>MENU</a>
+<div class='nav'>
+<ul id='navigation-menu'>
+<li class='nav-link'><a href="/output/">Output</a></li>
+<li class='nav-link'><a href="/desmos/">Desmos Tutorials</a></li>
+<li class='nav-link'><a href="/about/">About</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+
+    <div id="main" role="main">
+      <h1 id="desmos-for-the-absolute-beginner">Desmos for the Absolute Beginner</h1>
+
+<p>I mean it. Absolute beginners welcome. This is a judgment-free zone.<sup id="fnref:jfz"><a href="#fn:jfz" class="footnote">1</a></sup></p>
+
+<p>As is legally required in the genre of programming tutorials, we’re going to do the Desmos version of <a href="http://en.wikipedia.org/wiki/%22Hello,_world!%22_program"><code>Hello, world!</code></a>. That’s doubly-great news for us because (1) like any respectable HW program, it’s incredibly simple to run, and (2) <em>unlike</em> most HW programs, this one’s going to do something much more interesting than print <code>Hello, world!</code> to your screen.</p>
+
+<h6 id="sect-ploughing-the-field">§ Ploughing the Field</h6>
+
+<p>People are going to be viewing and interacting with our Desmos calculator in a browser, so we need to run the code in a place where a browser can access and interpret it. The simplest way to make that happen is to create an html file, so that’s what we’ll do.</p>
+
+<p>Open any program that can create a plaintext file<sup id="fnref:editor"><a href="#fn:editor" class="footnote">2</a></sup> so that we can write a very simple web page (which will quickly become awesome). Paste/type in the following lines and save the file as <code>desmos.html</code> or something similarly clever:</p>
+
+<pre><code class="highlight html"><span class="c">&lt;!-- desmos.html --&gt;</span>
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Hello, Desmos!<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"calculator"</span> <span class="na">style=</span><span class="s">"width: 300px; height: 300px;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+
+<p>Maybe it’s not very impressive, but that’s a complete web page ready for viewing. In fact, go ahead and open <code>desmos.html</code> in your favorite browser and take a look. You should see…</p>
+
+<p>…nothing. That’s okay, we haven’t put anything visible into the page yet, but we’ve laid the foundation.<sup id="fnref:meta"><a href="#fn:meta" class="footnote">3</a></sup></p>
+
+<h6 id="sect-sowing-the-seeds">§ Sowing the Seeds</h6>
+
+<p>We’re going to write a little bit of Javascript in a minute, but it’s going to rely on a whole <em>lot</em> of Javascript that Desmos has already written. In order to set that relationship up, we need to give our web page a way to latch onto the Desmos API.<sup id="fnref:api"><a href="#fn:api" class="footnote">4</a></sup> Luckily that’s pretty easy to do: we’ll just insert a <code>&lt;script&gt;</code> tag and point it to the API’s Internet address.  Here’s what your <code>desmos.html</code> file will look like now:</p>
+
+<pre><code class="highlight html"><span class="c">&lt;!-- desmos.html --&gt;</span>
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Hello, Desmos!<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://www.desmos.com/api/v0.4/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"calculator"</span> <span class="na">style=</span><span class="s">"width: 300px; height: 300px;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+
+<h6 id="sect-reaping-the-sweet-rewards">§ Reaping the Sweet Rewards</h6>
+
+<p>Okay, now it’s time for <code>Hello, world!</code> We’re going to use another set of <code>&lt;script&gt;</code> tags, except this time — instead of linking to an external Javascript file — we’re going to write our very own code inside. Don’t worry if you don’t understand exactly what the code is actually doing right now. There’s plenty of time for that. Our goal is just to get up and running. But here we go, one little line of Javascript magic:</p>
+
+<pre><code class="highlight html"><span class="c">&lt;!-- desmos.html --&gt;</span>
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Hello, Desmos!<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://www.desmos.com/api/v0.4/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"calculator"</span> <span class="na">style=</span><span class="s">"width: 300px; height: 300px;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;script&gt;</span>
+            <span class="kd">var</span> <span class="nx">myCalculator</span> <span class="o">=</span> <span class="nx">Desmos</span><span class="p">.</span><span class="nx">Calculator</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'calculator'</span><span class="p">));</span>
+        <span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+
+<p>Save your file, refresh your browser, and boom: you’ve got your very own Desmos calculator. You can input expressions, make lists, play with sliders — all the cool stuff you can normally do on the Desmos app — on your own personal web page.</p>
+
+<p>Once you’ve got a calculator instance set up on a page, there are all kinds of interesting things you can do with it. Over the course of this tutorial series we’ll take a look at a bunch of them. But for now, go grab a drink and pat yourself on the back.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:jfz">
+      <p>That goes both ways. I can and do make mistakes, so let’s both agree to be just as gentle as possible through this whole thing. <a href="#fnref:jfz" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:editor">
+      <p>These programs are called, appropriately “text editors.” If you’re on a Mac, then you have TextEdit installed by default. If you’re on a Windows machine, then you have Notepad. If you have a Linux box, then you know what a text editor is. You want to stay away from programs like Word, which add all sorts of metadata to files. If think you’re going try your hand at this coding thing on a regular basis, the first thing you should do is find a good text editor that you’re comfortable with. If you’re hurting for a recommendation, I’ve found <a href="http://www.sublimetext.com/">Sublime Text</a> to be pretty great. And then, when you’re ready for the big leagues, go <a href="http://www.openvim.com/tutorial.html">learn about VIM</a>. <a href="#fnref:editor" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:meta">
+      <p>…to mix my metaphors a bit. <a href="#fnref:meta" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:api">
+      <p>API stands for <a href="http://en.wikipedia.org/wiki/Application_programming_interface">Application Programming Interface</a>. Basically it’s a set of rules that governs how two programs should talk to one another. In this case it lets our little program talk to the software that powers the Desmos application on the web. <a href="#fnref:api" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </div>
+
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+
+
+
+  </body>
+</html>
