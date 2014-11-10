@@ -1,1 +1,0 @@
-$(function(){var i=$("#hero"),e=function(){$("#life").remove(),i.append("<div id='life'></div>"),i.css("backgroundColor","transparent");var e=$("#life");e.width(i.outerWidth()).height(i.outerHeight());var t=new Life({elt:"#life",width:e.width(),height:e.height(),cellSize:10});t.init()};e(),$(window).resize(e)});
